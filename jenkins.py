@@ -23,7 +23,8 @@ def connectJenkins(url, username, password):
 
 
 def logJobs():
-    server = connectJenkins('http://localhost:8080', 'onyeka', 'zephyr87')
+    # Your server details here
+    server = connectJenkins('http://localhost:8080', '', '')
     conn = connectDB()
 
     # For each job found, we get its details and save to db
